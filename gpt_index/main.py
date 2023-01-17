@@ -4,7 +4,7 @@ import openai
 #import os
 
 #os.environ['OPENAI_API_KEY'] = st.secrets["openai_key"]
-openai.api_key = st.secrets['openai_key']
+#openai.api_key = st.secrets['openai_key']
 
 col_1, col_2 = st.columns(2)
 
