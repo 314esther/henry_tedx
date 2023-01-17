@@ -1,10 +1,10 @@
 import streamlit as st
 from gpt_index import GPTSimpleVectorIndex, SimpleDirectoryReader
 import openai
-import os
+#import os
 
-os.environ['OPENAI_API_KEY'] = st.secrets["openai_key"]
-#openai.api_key_path = "gpt_index/api_key.txt"
+#os.environ['OPENAI_API_KEY'] = st.secrets["openai_key"]
+openai.api_key = st.secrats['openai_key']
 
 col_1, col_2 = st.columns(2)
 
