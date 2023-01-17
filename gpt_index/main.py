@@ -24,7 +24,7 @@ else:
 with col_1:
 	st.video("https://www.youtube.com/embed/ndCzlfs3gqs?playsinline=1&enablejsapi=1&widgetid=1", start_time=start_time)
 
-documents = SimpleDirectoryReader('data').load_data()
+documents = SimpleDirectoryReader('gpt_index/data').load_data()
 
 index = GPTSimpleVectorIndex(documents)
 
