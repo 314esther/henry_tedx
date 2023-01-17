@@ -1,3 +1,0 @@
-streamlit
-gpt_index
-openai
