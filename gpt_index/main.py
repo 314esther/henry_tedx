@@ -7,6 +7,7 @@ index = GPTSimpleVectorIndex(documents)
 
 question = st.text_input("Ask me a question")
 
-response = index.query(question)
+if question:
+  response = index.query(question)
 
-st.write(response)
+  st.write(response)
